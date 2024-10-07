@@ -16,9 +16,9 @@ export default function ReviewDetails({
     return notFound();
   }
 
-  if (random === 1) {
-    throw new Error("Error loading review...");
-  }
+  // if (random === 1) {
+  //   throw new Error("Error loading review...");
+  // }
 
   return (
     <>
