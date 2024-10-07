@@ -11,7 +11,6 @@ export default function Docs({
     slug: string[];
   };
 }) {
-  console.log(params);
   if (params.slug?.length === 2) {
     return (
       <h1>
